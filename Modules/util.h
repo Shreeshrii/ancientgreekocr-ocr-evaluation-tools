@@ -29,7 +29,12 @@
 #ifndef _UTIL_
 #define _UTIL_
 
-#include <malloc.h>
+#ifdef __APPLE__
+	#include <stdlib.h>
+#else
+	#include <malloc.h>
+#endif
+
 #include <stdio.h>
 #include <string.h>
 
