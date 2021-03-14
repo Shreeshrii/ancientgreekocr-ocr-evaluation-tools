@@ -29,8 +29,8 @@
 
 /* #define SHOW_FASTUKK_REDUCTION */
 
-typedef unsigned short F;
-#define MAX_F     65535
+typedef unsigned int F;
+#define MAX_F     655350
 
 BEGIN_ITEM(Diag)
     F f;
