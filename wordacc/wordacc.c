@@ -59,8 +59,8 @@ Symbol *symbol[2], **a, **b;
 
 long m, n, min_k, max_k;
 
-typedef unsigned short F;
-#define MAX_F  65535
+typedef unsigned int F;
+#define MAX_F  655350
 
 BEGIN_ITEM(Path)
     long p;
